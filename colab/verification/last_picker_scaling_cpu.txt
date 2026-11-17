@@ -1,0 +1,24 @@
+test_both_width_counts_shapes_and_independence (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... ok
+test_corrupt_logs_and_changed_settings_are_rejected (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... ok
+test_cuda_collection_update_and_evaluation (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... skipped 'CUDA device unavailable on this host'
+test_cuda_resume_state_is_exact_on_same_device (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... skipped 'CUDA device unavailable on this host'
+test_evaluation_does_not_change_next_update (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... ok
+test_isolation_and_schedule_validation (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... ok
+test_resume_on_fresh_local_folder_is_exact (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... ok
+test_retention_preserves_logs_and_milestones (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest) ... ok
+test_diagnostic_only_changes_two_failed_rewards (nmmo2.raid_nmmo.test_train_last_picker.TrainingProtocolTest) ... ok
+test_display_swap_changes_choice_but_keeps_real_teammates (nmmo2.raid_nmmo.test_train_last_picker.TrainingProtocolTest) ... ok
+test_equal_contexts_for_every_person_and_heldout_parties (nmmo2.raid_nmmo.test_train_last_picker.TrainingProtocolTest) ... ok
+test_only_focal_players_receive_updates (nmmo2.raid_nmmo.test_train_last_picker.TrainingProtocolTest) ... ok
+test_last_turn_departure_and_timeout (nmmo2.raid_nmmo.test_ready_prep.ReadyPrepTest) ... ok
+test_locked_member_remains_visible_and_can_talk (nmmo2.raid_nmmo.test_ready_prep.ReadyPrepTest) ... ok
+test_identical_observation_ignoring_policy_has_identical_paired_outcomes (nmmo2.raid_nmmo.test_last_picker.LastPickerTest) ... ok
+test_last_legal_turn_counts_and_rule_completes_both_battles (nmmo2.raid_nmmo.test_last_picker.LastPickerTest) ... ok
+test_schedule_balances_people_and_seats_and_changes_one_peer (nmmo2.raid_nmmo.test_last_picker.LastPickerTest) ... ok
+test_timeouts_are_not_counted_as_committed_roles (nmmo2.raid_nmmo.test_last_picker.LastPickerTest) ... ok
+test_only_exchangeable_dps_are_certified (nmmo2.raid_nmmo.test_certified_battle.CertificateTest) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 10.456s
+
+OK (skipped=2)

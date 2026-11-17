@@ -1,0 +1,98 @@
+{
+  "cpu_resume": {
+    "by_width": [
+      {
+        "all_128_model_tensors_equal": true,
+        "all_saved_rng_states_equal": true,
+        "appearances_equal": true,
+        "compressed_operation_logs_byte_equal": true,
+        "continuous_vs_save_after_one_update": true,
+        "fixture": "width64, 128 independent policies, synthetic deterministic combat, two updates",
+        "full_adam_state_equal": true,
+        "log_sha256": {
+          "u000001": "a1329855b880541d16f231dc802719cdc2171099f5c5307d3c0dd5a8c4c15c4d",
+          "u000002": "c6434586b6cd6af8157000874035d00bf1bb0f4658a842be5d682d4078f800ca"
+        },
+        "loss_and_non_timing_stats_equal": true,
+        "next_scenario_schedule_equal": true,
+        "next_scenarios": 512,
+        "timing_values_excluded": true
+      },
+      {
+        "all_128_model_tensors_equal": true,
+        "all_saved_rng_states_equal": true,
+        "appearances_equal": true,
+        "compressed_operation_logs_byte_equal": true,
+        "continuous_vs_save_after_one_update": true,
+        "fixture": "width128, 128 independent policies, synthetic deterministic combat, two updates",
+        "full_adam_state_equal": true,
+        "log_sha256": {
+          "u000001": "c8830d6d630371e6e5fc50c309efec10c2dc2c46d74dd9e0ea87b98160457463",
+          "u000002": "55a54b9fc3a7d50dcbd8aa020a09492c5f1e95d9d89b31eb59e7f1b048df48f3"
+        },
+        "loss_and_non_timing_stats_equal": true,
+        "next_scenario_schedule_equal": true,
+        "next_scenarios": 512,
+        "timing_values_excluded": true
+      }
+    ],
+    "widths": [
+      64,
+      128
+    ]
+  },
+  "errors": 0,
+  "failures": 0,
+  "kind": "bounded tests only; no Colab job or scientific training series started",
+  "notebook_code_cells_parse": true,
+  "provenance": {
+    "commit": "fe5e78abeec50d602cf6dae0a6affce705bf1195",
+    "source_hashes": {
+      "nmmo2/raid_nmmo/certified_battle.py": "f922d84167122525f70b9ddb3035cbed13807774feb162fde99f4d00a15a5b1b",
+      "nmmo2/raid_nmmo/combat_policies.py": "32049f44df66b22d7547e70d8e85585b7ae8a6ce9492f9a1d2fe8459bb243064",
+      "nmmo2/raid_nmmo/last_picker.py": "b9e2d10fe890f20a05783c60da08d0e58ca6f6da721b7a19a53615f8ea092fd3",
+      "nmmo2/raid_nmmo/raid_game.py": "b756b692c2266cf421398b055225f949f048051e02fac935d03d628fbbcd8f21",
+      "nmmo2/raid_nmmo/random_ready.py": "80aa0a33d8b1fc345fe8889c6310b2623db83e4336a36fe81539b7b3f52ff855",
+      "nmmo2/raid_nmmo/ready_battle.py": "db3aa01ffcd899d7fb9e1b799539f28a2b0331a5baac3b342f2323f06c31ce5b",
+      "nmmo2/raid_nmmo/ready_partner.py": "ec87e6cc1184517736aeaac100f3b275c9f9c498ee6aefba1cf1a7aa15e352be",
+      "nmmo2/raid_nmmo/ready_policy.py": "a09c9457f7d1e2935bd0dccc258c880fdb231c4c4f47ad495a8fd57ca0059993",
+      "nmmo2/raid_nmmo/ready_prep.py": "1f622f913f802276ffc819172a1e92e42f1065d69254dbd000a5e931884a16c8",
+      "nmmo2/raid_nmmo/scaling_last_picker.py": "89bde5d61f798238f54cd97b48def4a1b55a05ceacfa7096911c35d2da66891e",
+      "nmmo2/raid_nmmo/train_last_picker.py": "6c1424942adeb6ef1e12ab607ae47f5200195f5689c86f3cf9944108a87d8d87",
+      "nmmo2/raid_proto/boss_catalog.py": "c94ea6fcef26bf8d9abae239b6601d3904328edd89f9ce52500004f57c242d77",
+      "nmmo2/raid_proto/env.py": "d3bd78b35d8595478902471148586ea1bf3342c59ef51cf05df26b0512b633c1"
+    },
+    "tracked_dirty": true
+  },
+  "runtime": {
+    "cpu_count": 10,
+    "cuda_capability": null,
+    "cuda_device": null,
+    "device": "cpu",
+    "dtype": "float32",
+    "machine": "arm64",
+    "packages": {
+      "gymnasium": "0.29.1",
+      "nmmo": "2.1.2",
+      "numpy": "1.23.3",
+      "pettingzoo": "1.24.1",
+      "torch": "2.8.0"
+    },
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.9.6",
+    "torch_cuda_version": null,
+    "torch_threads": 1
+  },
+  "skipped": [
+    {
+      "reason": "CUDA device unavailable on this host",
+      "test": "test_cuda_collection_update_and_evaluation (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest)"
+    },
+    {
+      "reason": "CUDA device unavailable on this host",
+      "test": "test_cuda_resume_state_is_exact_on_same_device (nmmo2.raid_nmmo.test_scaling_last_picker.ScalingTest)"
+    }
+  ],
+  "tests_run": 19
+}
